@@ -1,9 +1,12 @@
 {
+  "homepage": "https://dev-hassaan.github.io/Hassaan-Portfolio/",
   "name": "hassaan-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -15,6 +18,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "gh-pages": "^6.1.1",
     "jquery": "^3.7.1",
     "sass": "^1.79.4"
   }
