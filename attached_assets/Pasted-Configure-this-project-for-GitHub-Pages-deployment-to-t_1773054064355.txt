@@ -1,0 +1,100 @@
+Configure this project for GitHub Pages deployment to the following URL:
+
+https://dev-hassaan.github.io/Hassaan-Portfolio/
+
+Repository name:
+Hassaan-Portfolio
+
+Your task is deployment setup only. Do not redesign the site and do not change business logic unless required for deployment compatibility.
+
+Please follow these steps exactly:
+
+1. Detect the project type
+Inspect the codebase and determine whether this project is:
+- Vite
+- Create React App
+- Next.js
+- plain HTML/CSS/JS
+- another frontend framework
+
+2. Configure the project for GitHub Pages under the repo subpath
+This project will be hosted at:
+ /Hassaan-Portfolio/
+
+So all built assets and routes must work correctly from that subpath.
+
+Apply the correct framework-specific configuration:
+
+- If Vite:
+  set the build base path to:
+  /Hassaan-Portfolio/
+
+- If Create React App:
+  add homepage in package.json as:
+  https://dev-hassaan.github.io/Hassaan-Portfolio
+
+- If Next.js:
+  configure static export for GitHub Pages and set:
+  basePath: '/Hassaan-Portfolio'
+  assetPrefix: '/Hassaan-Portfolio/'
+  Only use static-export-compatible settings.
+
+- If plain static HTML/CSS/JS:
+  ensure asset paths work correctly when served from /Hassaan-Portfolio/
+  Prefer stable relative or repo-aware paths. Do not assume root "/".
+
+3. Install gh-pages
+Add gh-pages as a dev dependency.
+
+4. Add deployment scripts
+Update package.json scripts so deployment works correctly.
+
+Use the correct output folder depending on framework:
+- dist for Vite
+- build for Create React App
+- correct exported folder for other frameworks
+
+Expected script pattern:
+- predeploy runs the production build
+- deploy publishes the built output via gh-pages
+
+5. Check router compatibility
+If this is a React SPA or another client-routed app, make routing work on GitHub Pages.
+
+Preferred order:
+- use router basename set to /Hassaan-Portfolio/ when appropriate
+- if refresh/deep-link compatibility is still risky, switch to HashRouter as the safer GitHub Pages option
+
+Choose the most reliable production-safe option.
+
+6. Verify asset paths
+Check for broken root-relative paths such as:
+- /assets/...
+- /images/...
+- /favicon...
+unless they are correctly prefixed for /Hassaan-Portfolio/
+
+Fix them so the deployed site works from the GitHub Pages repo URL.
+
+7. Build and validate
+Run the production build and verify:
+- JS loads correctly
+- CSS loads correctly
+- images and icons resolve correctly
+- routing works for the GitHub Pages subpath
+- no obvious broken references remain
+
+8. Output a final report
+After making the changes, give me a concise report containing:
+- detected framework
+- files changed
+- exact deployment-related changes
+- output folder name
+- final commands I should run
+- whether I need to change anything in GitHub repository settings
+
+Important constraints:
+- Do not use "./" as the default base path unless the project is plain static HTML and you confirm it is safer than the repo subpath setup.
+- For Vite and most SPA setups, prefer the explicit repo subpath:
+  /Hassaan-Portfolio/
+- Keep all modifications minimal and deployment-focused.
