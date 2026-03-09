@@ -1,7 +1,8 @@
 import { 
-  SiTypescript, SiReact, SiNodedotjs, SiPython, SiDocker, SiAmazonwebservices, 
+  SiTypescript, SiReact, SiNodedotjs, SiPython, SiDocker, 
   SiPostgresql, SiTailwindcss, SiGraphql, SiNextdotjs 
 } from 'react-icons/si';
+import { FaAws } from 'react-icons/fa';
 
 export const portfolioData = {
   hero: {
@@ -75,6 +76,6 @@ export const portfolioData = {
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
     { name: "Python", icon: SiPython, color: "#3776AB" },
     { name: "Docker", icon: SiDocker, color: "#2496ED" },
-    { name: "AWS", icon: SiAmazonwebservices, color: "#FF9900" },
+    { name: "AWS", icon: FaAws, color: "#FF9900" },
   ]
 };
