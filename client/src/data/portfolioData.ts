@@ -1,81 +1,122 @@
 import { 
-  SiTypescript, SiReact, SiNodedotjs, SiPython, SiDocker, 
-  SiPostgresql, SiTailwindcss, SiGraphql, SiNextdotjs 
+  SiReact, SiJavascript, SiPhp, SiLaravel, 
+  SiMysql, SiGit, SiGithub, SiTailwindcss, SiBootstrap, SiPython
 } from 'react-icons/si';
-import { FaAws } from 'react-icons/fa';
 
 export const portfolioData = {
   hero: {
     greeting: "Hi, I'm",
-    name: "Alex Sterling",
-    role: "Full-Stack Engineer & UI/UX Enthusiast",
-    description: "I build exceptional, highly performant, and accessible digital experiences. Crafting beautiful web applications with modern technologies.",
+    name: "Hassaan Arshad",
+    role: "Frontend Developer | PlayCanvas Developer | Interactive Web Experience Builder",
+    description: "I build modern frontend experiences, interactive configurators, and responsive user interfaces that connect design, logic, and real-time interaction. Skilled in React, JavaScript, and frontend-to-3D integration.",
   },
   about: {
     paragraphs: [
-      "Hello! I'm Alex, a software engineer based in San Francisco with a passion for building digital services and stuff that lives on the internet.",
-      "My journey in web development started back in 2015 when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS taught me a lot about web fundamentals!",
-      "Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, and a huge corporation. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.",
+      "I'm a frontend developer with hands-on experience building product configurators and integrating PlayCanvas 3D scenes into web applications. My work focuses on clean UI integration, responsive layouts, interactive controls, and practical user experience improvements.",
+      "Currently at Darul Solutions, I build interactive web experiences and product configurators. I've also worked at Aexus Studios on similar projects. Beyond professional work, I completed ADSE Prime 2.0, a comprehensive program covering frontend development, backend systems, databases, mobile development with Flutter, and AI foundations.",
+      "This cross-disciplinary learning has given me a well-rounded understanding of digital product development, enabling me to collaborate effectively across different technical domains and deliver complete solutions."
     ],
     stats: [
-      { label: "Years Experience", value: "8+" },
-      { label: "Projects Completed", value: "50+" },
-      { label: "Happy Clients", value: "30+" },
-      { label: "Coffee Consumed", value: "∞" },
+      { label: "Current Role", value: "Frontend Developer" },
+      { label: "Focus", value: "Interactive Web" },
+      { label: "Location", value: "Karachi, Pakistan" },
+      { label: "Status", value: "Always Learning" },
     ]
   },
   experience: [
     {
       id: 1,
-      role: "Senior Frontend Engineer",
-      company: "TechNova Solutions",
-      duration: "2021 - Present",
-      description: "Leading the core frontend team to build and maintain a scalable component library. Migrated legacy monolithic architecture to highly decoupled micro-frontends.",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS"]
+      role: "Frontend & PlayCanvas Developer",
+      company: "Darul Solutions",
+      duration: "2023 - Present",
+      description: "Build interactive product configurators and integrate PlayCanvas 3D scenes into web applications using postMessage and frontend communication. Develop dynamic UI controls for 3D interactions and responsive frontend experiences.",
+      skills: ["React", "JavaScript", "PlayCanvas", "Responsive Design", "UI/UX", "Product Configurators"]
     },
     {
       id: 2,
-      role: "Full Stack Developer",
-      company: "Elevate Digital",
-      duration: "2018 - 2021",
-      description: "Developed and shipped highly interactive web applications. Architected backend infrastructure using Node.js and PostgreSQL to support 100k+ daily active users.",
-      skills: ["Node.js", "PostgreSQL", "React", "AWS"]
-    },
-    {
-      id: 3,
-      role: "Web Developer",
-      company: "Creative Spark Agency",
-      duration: "2015 - 2018",
-      description: "Worked closely with designers and project managers to create responsive, pixel-perfect marketing sites and e-commerce platforms.",
-      skills: ["HTML/CSS", "JavaScript", "PHP", "WordPress"]
+      role: "Frontend & PlayCanvas Developer",
+      company: "Aexus Studios",
+      duration: "2025 - 1 Month",
+      description: "Worked on product configurator projects, assisted with PlayCanvas and frontend integration, and supported interactive UI implementation for client deliverables.",
+      skills: ["Frontend Development", "PlayCanvas Integration", "Product UI", "Interactive Components"]
     }
   ],
   education: [
     {
       id: 1,
-      degree: "M.S. in Computer Science",
-      school: "Stanford University",
-      duration: "2013 - 2015",
-      description: "Specialized in Human-Computer Interaction and Distributed Systems."
+      degree: "ADSE Diploma (AI + Flutter Track)",
+      school: "Aptech",
+      duration: "2023 - 2026",
+      description: "Comprehensive program covering frontend development, backend systems (.NET, Laravel), databases, mobile app development with Flutter, and AI/ML foundations."
     },
     {
       id: 2,
-      degree: "B.S. in Software Engineering",
-      school: "University of California, Berkeley",
-      duration: "2009 - 2013",
-      description: "Graduated with Honors. Led the university web development club."
+      degree: "Intermediate",
+      school: "Aptech",
+      duration: "2026 - Present",
+      description: "Advanced studies and specialization in emerging technologies."
+    },
+    {
+      id: 3,
+      degree: "Matriculation",
+      school: "Strong Base Academy",
+      duration: "2022 - 2023",
+      description: "Strong foundational education with focus on STEM subjects."
     }
   ],
   skills: [
-    { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
-    { name: "React", icon: SiReact, color: "#61DAFB" },
-    { name: "Next.js", icon: SiNextdotjs, color: "#FFFFFF" },
-    { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
-    { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
-    { name: "GraphQL", icon: SiGraphql, color: "#E10098" },
+    { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
+    { name: "React.js", icon: SiReact, color: "#61DAFB" },
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+    { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
+    { name: "PHP", icon: SiPhp, color: "#777BB4" },
+    { name: "Laravel", icon: SiLaravel, color: "#FF2D20" },
+    { name: "MySQL", icon: SiMysql, color: "#00758F" },
+    { name: "Git", icon: SiGit, color: "#F05033" },
+    { name: "GitHub", icon: SiGithub, color: "#181717" },
     { name: "Python", icon: SiPython, color: "#3776AB" },
-    { name: "Docker", icon: SiDocker, color: "#2496ED" },
-    { name: "AWS", icon: FaAws, color: "#FF9900" },
-  ]
+  ],
+  learningJourney: {
+    title: "ADSE Prime 2.0 - AI + Flutter Track",
+    semesters: [
+      {
+        id: 1,
+        title: "Programming & Web Basics",
+        topics: ["Computer Fundamentals", "Logic Building", "HTML5 & CSS3", "JavaScript (Core + ES6)", "Bootstrap / Responsive UI", "UI/UX Basics"]
+      },
+      {
+        id: 2,
+        title: "Database & .NET",
+        topics: ["SQL Server", "Database Design", "C# Programming", "OOP Concepts", "ASP.NET MVC / .NET Core", "Web API Basics", "Azure Fundamentals"]
+      },
+      {
+        id: 3,
+        title: "Open Source & Backend",
+        topics: ["Git & GitHub", "MySQL", "PHP", "Laravel Framework", "WordPress (CMS)", "Web Security Basics", "SEO Basics"]
+      },
+      {
+        id: 4,
+        title: "Mobile App Development",
+        topics: ["Dart Programming", "OOP in Dart", "Flutter Widgets", "State Management", "REST API Integration", "Firebase Basics", "Cross-Platform App Development"]
+      },
+      {
+        id: 5,
+        title: "AI Foundations",
+        topics: ["Advanced Python", "NumPy", "Pandas", "Data Visualization", "Introduction to AI", "Machine Learning Basics", "Supervised & Unsupervised Learning"]
+      },
+      {
+        id: 6,
+        title: "Applied AI & Deep Learning",
+        topics: ["Advanced ML Algorithms", "Decision Trees", "Random Forest", "SVM", "Neural Networks", "Deep Learning", "TensorFlow / PyTorch", "NLP Fundamentals"]
+      }
+    ]
+  },
+  contact: {
+    email: "syedhassaan720@gmail.com",
+    phone: "03193431103",
+    location: "Karachi, Pakistan",
+    links: [
+      { name: "GitHub", url: "https://github.com/Dev-Hassaan" }
+    ]
+  }
 };

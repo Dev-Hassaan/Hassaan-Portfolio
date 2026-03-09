@@ -1,0 +1,232 @@
+Use the following content only for the portfolio website. Do not change the meaning. Rewrite lightly only where needed for grammar, consistency, and premium presentation. Keep the tone modern, professional, and concise.
+
+Create the portfolio content using these exact sections:
+
+1. Hero / Summary
+2. About
+3. Education
+4. Experience
+5. Skills
+6. Learning Journey
+7. Contact
+
+Important rules:
+- This is only a content instruction, not a UI/build instruction
+- Keep the writing professional and polished
+- Present the content in a strong portfolio style, not like a raw CV
+- Group skills into logical categories
+- Keep the content easy to edit later
+- Do not invent fake companies, degrees, or achievements
+- You may improve wording, headings, and sentence quality
+- You may convert course/module lists into professional skill descriptions
+
+Use this content:
+
+Full Name:
+Hassaan Arshad
+
+Professional Title:
+Frontend Developer | PlayCanvas Developer | Interactive Web Experience Builder
+
+Hero Summary:
+Frontend Developer with experience in building interactive web applications, product configurators, and PlayCanvas-integrated web experiences. Skilled in React, JavaScript, responsive UI development, and frontend-to-3D integration. Also trained in backend development, Flutter, databases, and AI foundations.
+
+Short Intro:
+I build modern frontend experiences, interactive configurators, and responsive user interfaces that connect design, logic, and real-time interaction.
+
+About:
+I am a frontend developer with hands-on experience in building product configurators and integrating PlayCanvas 3D scenes into web applications using postMessage and structured frontend communication. My work focuses on clean UI integration, responsive layouts, interactive controls, and practical user experience improvements.
+
+I currently work at Darul Solutions and also have brief professional experience at Aexus Studios. In addition to my professional work, I have completed a broad technical learning journey through ADSE Prime 2.0, covering frontend development, backend systems, databases, mobile app development with Flutter, and AI foundations. This has helped me develop a cross-disciplinary understanding of digital product development.
+
+Education:
+- ADSE Diploma, Aptech, 2023 - 2026
+- Intermediate, Aptech, 2026 - Present
+- Matriculation, Strong Base Academy, 2022 - 2023
+
+Experience:
+Darul Solutions
+Frontend & PlayCanvas Developer
+2023 - Present
+- Built interactive product configurators
+- Integrated PlayCanvas with frontend using window communication
+- Developed dynamic UI controls for 3D interactions
+- Worked on responsive frontend experiences and interface behavior
+
+Aexus Studios
+Frontend & PlayCanvas Developer
+2025 - 1 Month
+- Worked on product configurator projects
+- Assisted with PlayCanvas and frontend integration
+- Supported interactive UI implementation
+
+Skills:
+Frontend Development:
+- HTML5
+- CSS3
+- JavaScript
+- ES6
+- jQuery
+- Bootstrap 5
+- Tailwind CSS
+- React.js
+- Responsive Web Design
+
+Interactive / 3D Web:
+- PlayCanvas
+- PlayCanvas Integration
+- Frontend-to-3D Communication
+- Product Configurator UI
+- Dynamic UI Controls
+- Interactive Web Experiences
+
+Backend / Web Technologies:
+- PHP
+- Laravel
+- ASP.NET MVC
+- .NET Core
+- Web API Basics
+- WordPress
+- REST API Integration
+
+Databases:
+- SQL Server
+- MySQL
+- Database Design
+
+Mobile App Development:
+- Dart
+- Flutter
+- Flutter Widgets
+- State Management
+- Firebase Basics
+- Cross-Platform App Development
+
+Programming Foundations:
+- Computer Fundamentals
+- Logic Building
+- OOP Concepts
+- C#
+- Python
+- Advanced Python
+- Data Structures in Python
+
+AI / Data Foundations:
+- NumPy
+- Pandas
+- Data Visualization
+- Introduction to AI
+- Machine Learning Basics
+- Supervised Learning
+- Unsupervised Learning
+- Model Evaluation
+- Decision Trees
+- Random Forest
+- SVM
+- Neural Networks
+- Deep Learning Basics
+- TensorFlow Basics
+- PyTorch Basics
+- NLP Fundamentals
+
+Tools / Workflow:
+- Git
+- GitHub
+- MS Office
+- Azure Fundamentals
+- Web Security Basics
+- SEO Basics
+
+Soft Skills:
+- Teamwork
+- Adaptability
+- Problem Solving
+
+Learning Journey:
+ADSE Prime 2.0 (AI + Flutter Track)
+
+Semester 1 - Programming & Web Basics:
+- Computer Fundamentals
+- MS Office
+- Logic Building
+- HTML5 & CSS3
+- JavaScript (Core + ES6)
+- Bootstrap / Responsive UI
+- UI/UX Basics
+- Website Project
+
+Semester 2 - Database & .NET:
+- SQL Server
+- Database Design
+- C# Programming
+- OOP Concepts
+- ASP.NET MVC / .NET Core
+- Web API Basics
+- Azure Fundamentals
+- .NET Project
+
+Semester 3 - Open Source & Backend:
+- Git & GitHub
+- MySQL
+- PHP
+- Laravel Framework
+- WordPress (CMS)
+- Web Security Basics
+- SEO Basics
+- Laravel Project
+
+Semester 4 - Mobile App Development:
+- Dart Programming
+- OOP in Dart
+- Flutter Widgets
+- State Management (Provider / basic methods)
+- REST API Integration
+- Firebase Basics
+- UI Design for Mobile
+- Cross-Platform App Project
+
+Semester 5 - AI Foundations:
+- Advanced Python
+- Data Structures in Python
+- NumPy
+- Pandas
+- Data Visualization
+- Introduction to AI
+- Machine Learning Basics
+- Supervised Learning
+- Unsupervised Learning
+- Mini AI Project
+
+Semester 6 - Applied AI & Deep Learning:
+- Advanced ML Algorithms
+- Model Evaluation
+- Decision Trees
+- Random Forest
+- SVM
+- Neural Networks
+- Deep Learning Intro
+- TensorFlow / PyTorch Basics
+- NLP Fundamentals
+- Final AI Capstone Project
+
+Contact:
+- Phone: 03193431103
+- Email: syedhassaan720@gmail.com
+- Location: Karachi, Pakistan
+- GitHub: Dev-Hassaan
+
+Languages:
+- English
+- Urdu
+
+Output requirement:
+Turn all of the above into polished portfolio-ready content for each section:
+- Hero / Summary
+- About
+- Education
+- Experience
+- Skills
+- Learning Journey
+- Contact
+
+Keep it concise, professional, and premium.
