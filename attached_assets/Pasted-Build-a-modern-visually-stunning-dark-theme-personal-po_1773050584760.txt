@@ -1,0 +1,118 @@
+Build a modern, visually stunning, dark-theme personal portfolio website using Vite + React.
+
+Project goal:
+Create a premium-looking personal portfolio website with smooth animations, skeleton loading states, scroll animations, and fully responsive design. The website should feel modern, elegant, and professional.
+
+Framework / stack:
+- Vite
+- React
+- Tailwind CSS
+- Framer Motion
+- AOS (Animate On Scroll)
+- React Icons
+- React Loading Skeleton
+- React Intersection Observer
+
+Core sections required:
+1. Hero / Summary
+2. About
+3. Education
+4. Experience
+5. Skills
+6. Footer / Contact links
+
+Design requirements:
+- Use a dark premium UI
+- Main background should be very dark, such as #0f172a
+- Cards should use slightly lighter dark shades
+- Accent color should be modern and vibrant, such as cyan / blue
+- Use soft glow effects, gradients, shadows, and subtle borders
+- The design must be clean, modern, and impressive
+- Full responsive support for desktop, tablet, and mobile
+
+Animation requirements:
+- Add entrance animations using Framer Motion
+- Add scroll-triggered animations using AOS
+- Add hover animations on buttons, cards, and skill items
+- Include smooth transitions throughout the UI
+- Use staggered animations where appropriate
+
+Skeleton requirements:
+- Add skeleton loading placeholders for sections before content renders
+- Use react-loading-skeleton for placeholder states
+- Simulate loading using state and timeout for demo purposes
+
+Functional requirements:
+- Sticky navbar with smooth scrolling to sections
+- Active section highlighting in navbar if possible
+- Smooth scroll behavior
+- Modular reusable React components
+- Clean code architecture
+- Easy-to-edit content stored in a separate data file
+
+Create this folder structure:
+src/
+  components/
+    Navbar.jsx
+    Hero.jsx
+    About.jsx
+    Education.jsx
+    Experience.jsx
+    Skills.jsx
+    Footer.jsx
+    SectionTitle.jsx
+  skeletons/
+    HeroSkeleton.jsx
+    AboutSkeleton.jsx
+    EducationSkeleton.jsx
+    ExperienceSkeleton.jsx
+    SkillsSkeleton.jsx
+  data/
+    portfolioData.js
+  App.jsx
+  main.jsx
+  index.css
+
+Implementation instructions:
+1. Initialize a Vite React project
+2. Install all required dependencies
+3. Configure Tailwind CSS
+4. Create reusable layout and section components
+5. Store all content in src/data/portfolioData.js
+6. Create a sticky navbar with smooth section navigation
+7. Build a hero section with name, title, summary, CTA buttons, and animated entry
+8. Build an about section with animated reveal and skeleton loader
+9. Build an education section in timeline or card style
+10. Build an experience section with premium cards and hover effects
+11. Build a skills section with animated progress bars or skill chips
+12. Add scroll animations with AOS
+13. Add loading skeletons before actual content appears
+14. Use lazy loading and clean structure where appropriate
+15. Ensure the final UI looks polished and premium
+
+Content placeholders:
+Use dummy placeholder content for now, but structure it clearly so I can easily replace it later. Include:
+- Full name
+- Role / title
+- Short summary
+- About paragraph
+- Education entries
+- Experience entries
+- Skills list
+- Social links placeholders
+
+Technical quality requirements:
+- Clean, readable, well-structured code
+- Use functional React components
+- Use reusable mappings for education, experience, and skills
+- Avoid bloated code
+- Use best practices for component splitting
+- Ensure the project runs without errors
+
+Output requirements:
+- Create all required files
+- Write complete code into each file
+- Configure Tailwind properly
+- Make the app fully working
+- Do not leave placeholders like “TODO”
+- Finish with a working portfolio app ready to preview
