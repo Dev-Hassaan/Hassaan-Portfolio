@@ -1,0 +1,151 @@
+I have already deployed my Vite + React portfolio project to GitHub, but the deployed link shows this error:
+
+404 Page Not Found
+Did you forget to add the page to the router?
+
+Your task is to FIX the deployment issue and also give me the best hosting recommendation for this portfolio project.
+
+Work in this order:
+
+==================================================
+STEP 1 — DIAGNOSE THE ROOT CAUSE
+==================================================
+
+First, inspect the project and identify which of these common issues is causing the problem:
+
+1. React Router issue on static hosting
+- If the app uses BrowserRouter and is deployed on GitHub Pages, direct route access or refresh may cause 404 errors on static hosting.
+- Check whether the project should use HashRouter instead, or whether a fallback / redirect solution is needed.
+
+2. Wrong Vite base path
+- Check whether vite.config.js is missing the correct base path for GitHub Pages deployment.
+- If the repo is hosted as:
+  https://username.github.io/repository-name/
+  then the Vite base usually needs to be:
+  base: "/repository-name/"
+
+3. Asset path / build output mismatch
+- Check whether JS, CSS, and image assets are loading from the wrong root path.
+
+4. GitHub Pages deployment config issue
+- Check whether the correct build folder is being deployed.
+- Check whether GitHub Pages is serving from the correct branch/folder.
+
+5. Missing SPA fallback handling
+- If static hosting cannot resolve frontend routes, add the required fallback strategy.
+
+==================================================
+STEP 2 — APPLY THE FIX
+==================================================
+
+Make the project deployment-safe for GitHub Pages.
+
+Do the following:
+
+A. Check router setup
+- If the app uses BrowserRouter and this is a normal portfolio SPA, replace it with HashRouter if that is the safest fix for GitHub Pages.
+- If keeping BrowserRouter is possible, only do so if proper fallback handling is added and the deployment can support it.
+
+B. Fix Vite config
+- Update vite.config.js with the correct base path for GitHub Pages.
+- Use the repository name dynamically if possible, or set it explicitly if needed.
+
+C. Verify asset loading
+- Ensure built JS, CSS, favicon, and image paths resolve correctly after deployment.
+
+D. Verify homepage / deploy config
+- If package.json or deployment scripts need adjustment, fix them.
+- If gh-pages package is needed, configure it properly.
+- If GitHub Actions deployment is used, ensure it deploys the correct build output.
+
+E. Add fallback handling if needed
+- If using GitHub Pages with SPA routes, implement the safest practical fix.
+- Prefer the simplest stable solution for a portfolio project.
+
+==================================================
+STEP 3 — RECOMMEND THE BEST HOSTING OPTION
+==================================================
+
+After fixing the bug, provide hosting recommendations inside a markdown file named:
+
+DEPLOYMENT_RECOMMENDATION.md
+
+In that file, compare these hosting options for this portfolio:
+
+1. GitHub Pages
+2. Vercel
+3. Netlify
+4. Cloudflare Pages
+
+For each one, explain:
+- Ease of deployment
+- Routing support for React SPA
+- Custom domain support
+- Performance
+- Best use case
+
+Then clearly recommend the best option for this project.
+
+My preference:
+- I want the easiest and most reliable hosting for a personal portfolio
+- I want fewer routing issues
+- I want fast deployment
+- I want professional hosting
+
+Most likely recommendation logic:
+- If this portfolio is a simple React SPA, recommend Vercel or Netlify over GitHub Pages if they are more reliable for routing and deployment simplicity.
+- Keep GitHub Pages as an option only if the project remains simple and the fixes are stable.
+
+==================================================
+STEP 4 — CREATE A CLEAR FIX SUMMARY
+==================================================
+
+Create another markdown file named:
+
+DEPLOYMENT_FIX_SUMMARY.md
+
+This file must include:
+1. What caused the 404
+2. What files were changed
+3. What exact fix was applied
+4. Whether router type was changed
+5. Whether Vite base path was changed
+6. How to redeploy
+7. Final recommended host
+
+==================================================
+STEP 5 — OUTPUT REQUIREMENTS
+==================================================
+
+Do all of the following:
+
+- Inspect and modify the actual project files
+- Fix the deployment bug completely
+- Keep the project production-ready
+- Do not break the design or animations
+- Keep the existing portfolio functionality intact
+- Add clear comments only where helpful
+- Create:
+  - DEPLOYMENT_RECOMMENDATION.md
+  - DEPLOYMENT_FIX_SUMMARY.md
+
+At the end, tell me:
+- the root cause
+- the files you changed
+- whether GitHub Pages is now fixed
+- which hosting platform you recommend most
+
+==================================================
+DECISION RULES
+==================================================
+
+Use these rules while fixing:
+
+- If this is a GitHub Pages deployment with React Router and multiple routes, HashRouter is usually the safest fix.
+- If the main issue is wrong asset paths, fix vite.config.js base first.
+- If both issues exist, fix both.
+- Prefer practical reliability over theoretical perfection.
+- This is a portfolio website, so choose the simplest robust production fix.
+
+Do not give me only advice.
+Actually modify the project and prepare it for redeployment.
