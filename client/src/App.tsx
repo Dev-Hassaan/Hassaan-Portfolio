@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 
 function Router() {
   return (
-    <Switch>
+    <Switch base="/Hassaan-Portfolio">
       <Route path="/" component={Home} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
