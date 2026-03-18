@@ -1,0 +1,9 @@
+node_modules
+dist
+.git
+attached_assets
+DEPLOYMENT_FIX_SUMMARY.md
+.local
+migrations
+*.tar.gz
+.DS_Store

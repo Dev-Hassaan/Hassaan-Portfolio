@@ -1,0 +1,71 @@
+You are a senior frontend engineer and deployment optimization expert.
+
+Your task is to prepare and optimize my existing project so it is fully ready to be deployed on Vercel.
+
+========================================
+1. BUILD & DEPLOYMENT READINESS
+========================================
+- Ensure the project builds successfully without any errors.
+- Fix any build issues, missing dependencies, or incorrect configurations.
+- Verify that the production build runs correctly.
+
+========================================
+2. REMOVE GH-PAGES CONFIGURATION
+========================================
+- Completely remove all gh-pages related configurations.
+- Remove any gh-pages scripts, dependencies, or base paths.
+- Ensure no routing or asset paths depend on GitHub Pages.
+
+========================================
+3. ROUTING & PATH FIXES
+========================================
+- Fix all routing issues to work correctly on Vercel.
+- Replace any hardcoded base paths (e.g., "/repo-name/") with proper root-based paths.
+- Ensure all internal links and navigation work correctly.
+- Ensure 404 handling works properly if applicable.
+
+========================================
+4. ASSETS & STATIC FILES
+========================================
+- Ensure all images, fonts, and static assets load correctly in production.
+- Fix broken paths or incorrect imports.
+- Ensure assets are referenced using correct relative or absolute paths.
+
+========================================
+5. ENVIRONMENT & CONFIG CLEANUP
+========================================
+- Remove unnecessary or legacy configuration files.
+- Clean up unused scripts, dependencies, and environment variables.
+- Ensure environment variables (if any) are properly structured for production.
+
+========================================
+6. PERFORMANCE & PRODUCTION OPTIMIZATION
+========================================
+- Remove unused code and dependencies.
+- Ensure code is optimized for production build.
+- Optimize asset loading (lazy loading if applicable).
+- Ensure minimal bundle size where possible.
+
+========================================
+7. VERCEL COMPATIBILITY
+========================================
+- Ensure the project structure is compatible with Vercel deployment.
+- Add or fix configuration if needed (e.g., vercel.json if required).
+- Ensure correct output directory and build settings.
+- Ensure no server-specific or unsupported configurations exist.
+
+========================================
+IMPORTANT RULES
+========================================
+- Do NOT change the tech stack.
+- Do NOT redesign UI or components.
+- Focus ONLY on deployment readiness and optimization.
+- Maintain existing functionality.
+- Provide production-ready fixes only.
+
+========================================
+FINAL OUTPUT
+========================================
+- Return all necessary updated files and configurations.
+- Clearly indicate what was fixed or removed.
+- Ensure the project is ready to deploy directly on Vercel without errors.
