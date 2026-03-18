@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface SectionTitleProps {
   title: string;
   subtitle?: string;
@@ -7,27 +5,30 @@ interface SectionTitleProps {
 }
 
 export function SectionTitle({ title, subtitle, alignment = 'left' }: SectionTitleProps) {
+  const isCenter = alignment === 'center';
+
   return (
-    <div className={`mb-12 ${alignment === 'center' ? 'text-center' : 'text-left'}`}>
-      <div 
-        data-aos="fade-up"
-        className="inline-flex items-center gap-4 mb-4"
-      >
-        {alignment === 'center' && <div className="h-px w-12 bg-cyan-500/50 hidden md:block" />}
-        <h2 className="text-3xl md:text-5xl font-bold text-foreground relative">
+    <div className={`mb-14 ${isCenter ? 'text-center' : 'text-left'}`} data-aos="fade-up" data-aos-duration="600">
+      <div className="inline-flex items-center gap-3 mb-2">
+        {isCenter && <div className="h-px w-10 bg-gradient-to-r from-transparent to-cyan-500/60 hidden sm:block" />}
+        <span className="text-xs font-bold text-cyan-500 uppercase tracking-[0.2em]">
           {title}
-          <span className="absolute -bottom-2 left-0 w-1/3 h-1 bg-gradient-primary rounded-full"></span>
-        </h2>
-        {alignment !== 'center' && <div className="h-px w-32 md:w-96 bg-slate-800 ml-4 hidden md:block" />}
-        {alignment === 'center' && <div className="h-px w-12 bg-cyan-500/50 hidden md:block" />}
+        </span>
+        {isCenter && <div className="h-px w-10 bg-gradient-to-l from-transparent to-cyan-500/60 hidden sm:block" />}
       </div>
-      
+
+      <h2
+        className={`text-3xl md:text-5xl font-display font-bold text-foreground ${isCenter ? 'mx-auto' : ''}`}
+        style={{ maxWidth: isCenter ? '700px' : undefined }}
+      >
+        {title}
+      </h2>
+
       {subtitle && (
-        <p 
-          data-aos="fade-up" 
-          data-aos-delay="100"
-          className="text-muted-foreground max-w-2xl mt-4 text-lg"
-          style={{ margin: alignment === 'center' ? '1rem auto 0' : '1rem 0 0' }}
+        <p
+          data-aos="fade-up"
+          data-aos-delay="80"
+          className={`text-slate-400 text-lg mt-4 leading-relaxed ${isCenter ? 'mx-auto max-w-2xl' : 'max-w-2xl'}`}
         >
           {subtitle}
         </p>

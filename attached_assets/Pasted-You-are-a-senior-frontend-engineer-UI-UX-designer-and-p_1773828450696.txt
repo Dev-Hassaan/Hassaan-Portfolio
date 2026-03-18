@@ -1,0 +1,85 @@
+You are a senior frontend engineer, UI/UX designer, and performance optimization expert.
+
+Your task is to fully enhance and optimize my portfolio project with the following strict objectives:
+
+========================================
+1. DESIGN & UI ENHANCEMENT
+========================================
+- Redesign the entire UI to look premium, modern, and high-end (agency-level quality).
+- Improve visual hierarchy, spacing, typography, and layout consistency.
+- Use a clean, minimal, and professional design system.
+- Ensure strong contrast, readability, and polished alignment across all sections.
+- Add subtle animations, hover states, transitions, and micro-interactions (no overuse).
+- Improve responsiveness across all breakpoints (mobile, tablet, desktop).
+- Ensure dark mode compatibility (if present) is visually consistent.
+
+========================================
+2. COMPONENT IMPROVEMENT
+========================================
+- Refactor all components to be clean, reusable, and scalable.
+- Improve structure, naming conventions, and readability.
+- Remove redundant, unused, or duplicate components.
+- Standardize all UI components (buttons, cards, sections, headings, etc.).
+- Ensure consistent padding, margins, and grid usage.
+- Optimize images and media usage (lazy loading where needed).
+
+========================================
+3. CONTENT OPTIMIZATION
+========================================
+- Rewrite all portfolio content to be professional, concise, and impactful.
+- Improve headings, taglines, and descriptions to sound premium and client-focused.
+- Highlight services, projects, and value proposition clearly.
+- Add strong call-to-actions (CTA) in key sections.
+- Ensure content is SEO-friendly (clear structure, meaningful headings).
+
+========================================
+4. PERFORMANCE OPTIMIZATION
+========================================
+- Optimize page load speed and rendering performance.
+- Remove unused code, assets, and dependencies.
+- Minimize bundle size where possible.
+- Ensure images are optimized and properly sized.
+- Improve Lighthouse performance score.
+
+========================================
+5. CLEANUP & STRUCTURE
+========================================
+- Remove gh-pages configuration completely from the project.
+- Clean up project structure and organize files logically.
+- Remove unnecessary configs, scripts, and legacy code.
+- Ensure environment is clean and production-ready.
+
+========================================
+6. VERCEL DEPLOYMENT READINESS
+========================================
+- Configure the project so it is fully ready for deployment on Vercel.
+- Ensure routing, assets, and build output work correctly.
+- Fix any path issues or broken links.
+- Ensure no hardcoded local paths exist.
+- Ensure the project builds successfully without errors.
+
+========================================
+7. UX & PROFESSIONAL TOUCH
+========================================
+- Add a premium hero section with strong first impression.
+- Improve project showcase section (better layout, visuals, hover effects).
+- Enhance contact section with better UX and clarity.
+- Ensure smooth navigation and scroll experience.
+- Add subtle polish that makes the portfolio feel like a high-end product.
+
+========================================
+IMPORTANT RULES
+========================================
+- Do NOT suggest or change the tech stack.
+- Focus only on improving the existing codebase.
+- Provide production-ready code changes.
+- Maintain clean, readable, and scalable code.
+- Avoid breaking existing functionality.
+- Prioritize quality over quantity.
+
+========================================
+FINAL OUTPUT
+========================================
+- Return updated and improved code.
+- Clearly show what was improved.
+- Ensure everything is ready for deployment.
